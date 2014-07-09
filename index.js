@@ -1,5 +1,5 @@
 var ioloop = require('./lib/ioloop');
 
 
-ioloop.setPrefix('nsh');
+ioloop.setPrefix('nodish');
 ioloop.start();
