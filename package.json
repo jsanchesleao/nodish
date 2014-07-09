@@ -1,6 +1,6 @@
 {
-  "name": "nsh",
-  "version": "0.0.0",
+  "name": "nodish",
+  "version": "0.0.1",
   "description": "a tool to create shell based apps in node",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "author": "jsanchesleao",
   "license": "ISC",
+  "repository": "https://github.com/jsanchesleao/nodish.git",
   "dependencies": {
     "lodash": "^2.4.1",
     "keypress": "~0.2.1"
