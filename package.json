@@ -1,0 +1,15 @@
+{
+  "name": "nsh",
+  "version": "0.0.0",
+  "description": "a tool to create shell based apps in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "jsanchesleao",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "keypress": "~0.2.1"
+  }
+}
