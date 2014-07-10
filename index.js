@@ -1,5 +1,12 @@
-var ioloop = require('./lib/ioloop');
+var ioloop = require('./lib/ioloop'),
+    io = require('./lib/io'),
+    commands = require('./lib/commands');
 
 
-ioloop.setPrefix('nodish');
+io.setPrefix('nodish');
+
+commands.registerCommand('pwd', function () {
+  console.log( __dirname );
+});
+
 ioloop.start();
