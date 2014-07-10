@@ -3,10 +3,15 @@ var ioloop = require('./lib/ioloop'),
     commands = require('./lib/commands');
 
 
-io.setPrefix('nodish');
+function start(name){
+  io.setPrefix(name || 'nodish');
+  ioloop.start();
+}
 
-commands.registerCommand('pwd', function () {
-  console.log( __dirname );
-});
 
-ioloop.start();
+module.exports = {
+  io: io,
+  commands: commands,
+  register: commands.registerCommand,
+  start: start
+}
