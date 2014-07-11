@@ -1,6 +1,6 @@
 {
   "name": "nodish",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a tool to create shell based apps in node",
   "main": "index.js",
   "scripts": {
